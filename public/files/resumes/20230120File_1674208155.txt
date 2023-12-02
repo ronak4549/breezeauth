@@ -1,0 +1,19 @@
+
+1. what is nodejs?
+-> nodejs is javascript runtime environment. it has written using non-blocking paradims. it process all requests using single thread. however we can use child process to handle overload of requests.
+
+2. why use nodejs?
+--> because it is cross plateform runtime.  cross plateform support allows us to create wide range of applications, there is huge nodejs community out there which makes easy to get started. it uses v8 engine to compile javascript hence and it uses event-driven and non-blocking I/O model hence it is very efficient and lightweight fast.
+
+3. what is the difference between commonJS and ESM?
+--> commonJS uses require() statement to import and moduel.exports to export. where ESM uses import and export statement for wise versa. recently ESM has been added to nodejs too.
+
+4. what is nodejs module?
+--> we split our code into different pices to reuse and organize our code. A module system allow us to split our code and include whereever we need to and also import other developers code when we need.
+
+
+5. what is difference between npm and npx?
+--> npm is a package manager which used to install node_module into our local project or globally in our system.npm is also known as online repository. where npx is package installer which is used for install package and run concurrently. npx comes with npm out of the box so its pretty common these days.
+
+6. what is command to update package using npm?
+-> npm update
